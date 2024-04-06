@@ -14,10 +14,9 @@ except:
 
 tokenized_file_name = input("Please provide the name of the output file along with its file format(.csv):")
 
-try:
-    df = pd.read_csv(file_path)
-except:
-    print("There seems to be an issue with the file path!")
+
+df = pd.read_csv(file_path)
+
 
 
 for index, row in df.iterrows():
