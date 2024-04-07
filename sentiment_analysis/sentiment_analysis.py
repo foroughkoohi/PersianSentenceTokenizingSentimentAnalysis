@@ -59,9 +59,7 @@ for index, row in df.iterrows():
     input_sentence = row[text_column_index]
     result = analyze_sentiment_three_classes(input_sentence)
     sentence_index = index
-    #print(result)
     labeled_dict = {'sentence':input_sentence, 'label':result}
-    #print(labeled_dict)
     df_labeled = pd.DataFrame(labeled_dict, index=[sentence_index])
     df_labeled.to_csv(output_file, mode = 'a', index = False, header = False, sep = ",")
     
