@@ -1,9 +1,6 @@
 # Persian Text Analysis Projects
 
 This repository contains two Persian text analysis projects: Sentence Tokenization and Sentiment Analysis.
-
-## Project 1: Persian Sentence Tokenizing
-
 This project tokenizes sentences in Persian texts. It splits the input text into individual sentences and labels them based on the given ratings.
 
 ### Features
@@ -61,10 +58,7 @@ Execute the script using Python. The script will prompt you for the following in
 
 The script will load the model, analyze the sentiment of each sentence, and save the results to the specified output file.
 
-**Example Usage**
 
-```bash
-python sentiment_analysis.py
 
 
 
