@@ -19,9 +19,8 @@ This project tokenizes sentences in Persian texts. It splits the input text into
 3. Please visit the *[link](https://pypi.org/project/parsinorm/)* and add any necessary files to the Anaconda directories.
 4. It's recommended to use Python 3.11 for running sentiment analysis.
 
-## Run the Script
+### Run the Script
 
-### Project 1: Persian Sentence Tokenizing
 
 Execute the script using Python. The script will prompt you for the following inputs:
 
